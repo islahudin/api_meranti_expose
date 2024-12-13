@@ -57,7 +57,9 @@ class WebhookController
         }
 
         // Jalankan perintah Git
-        shell_exec('cd /www/wwwroot/merantiapi.qordinate.com/api_meranti_expose && git pull origin main');
+        // shell_exec('cd /www/wwwroot/merantiapi.qordinate.com/api_meranti_expose && git pull origin main');
+        shell_exec('cd /www/wwwroot/merantiapi.qordinate.com/api_meranti_expose && git fetch origin main && git reset --hard origin/main');
+
         // http_response_code(200);
 
         $arr1[]=array(
