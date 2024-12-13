@@ -23,3 +23,4 @@ require_once __DIR__ . '/InstitutionRoute.php';
 require_once __DIR__ . '/EducationRoute.php';
 require_once __DIR__ . '/MydomRoute.php';
 require_once __DIR__ . '/EventRoute.php';
+require_once __DIR__ . '/WebhookRoute.php';
